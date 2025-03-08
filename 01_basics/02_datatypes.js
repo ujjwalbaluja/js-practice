@@ -22,7 +22,7 @@ let name = "Ujjwal"; //string
 let age = 24; //number
 let isLoggedIn = true; //boolean
 
-// Primitive datatypes
+// Primitive datatypes - Call by value
 // number
 // bigint
 // string => "" or ''
@@ -31,9 +31,10 @@ let isLoggedIn = true; //boolean
 // undefined => value that hasn't been defined yet
 // symbol => unique
 
-// Non-primitive datatypes
+// Non-primitive datatypes (Reference type) - Call by reference
 // objects => {}
 // arrays => []
+// functions => ()
 
 // typeof
 //Syntax => typeof datatype or typeof(datatype)
